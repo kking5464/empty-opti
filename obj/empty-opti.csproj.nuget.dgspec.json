@@ -1,0 +1,77 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/kking/code/empty-opti/empty-opti.csproj": {}
+  },
+  "projects": {
+    "/Users/kking/code/empty-opti/empty-opti.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/kking/code/empty-opti/empty-opti.csproj",
+        "projectName": "empty-opti",
+        "projectPath": "/Users/kking/code/empty-opti/empty-opti.csproj",
+        "packagesPath": "/Users/kking/.nuget/packages/",
+        "outputPath": "/Users/kking/code/empty-opti/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/kking/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "http://nuget.episerver.com/feed/packages.svc": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "EPiServer.CMS": {
+              "target": "Package",
+              "version": "[12.*, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Host.osx-x64",
+              "version": "[5.0.17, 5.0.17]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/6.0.400-preview.22330.6/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
